@@ -1,0 +1,142 @@
+body {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.menu_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_li {
+    margin: 0 10px;
+}
+
+.menu a.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a.button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    display: block;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+b {
+    text-align: center;
+    display: block;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+}
+
+input {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+textarea {
+    text-align: center;
+    width: 720px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-item {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}

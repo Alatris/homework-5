@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Комфортний геймінг</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1 class="h1">Все для комфортної роботи та гри</h1>
+    <nav class="menu">
+        <ul class="menu_ul">
+            <li class="menu_li"><a href="index.html" class="button">Головна</a></li>
+            <li class="menu_li"><a href="pages/articles.html" class="button">Товари</a></li>
+            <li class="menu_li"><a href="pages/contacts.html" class="button">Контакти</a></li>
+            <li class="menu_li"><a href="pages/gallery.html" class="button">Галерея</a></li>
+            <li class="menu_li"><a href="pages/about.html" class="button">Про нас</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <p>
+        Оберіть потрібний розділ, та обирайте те, що найбільше підходить для виконання ваших задач та вимог
+    </p>
+</main>
+<form action="https://fom.in.ua/echo" method="POST">
+    <fieldset>
+        <legend class="h3">Зв'язатись з нами (для замовлення чи уточнень)</legend>
+
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <div>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <label for="feedback">Замовте зворотній зв'язок:</label>
+        <input type="checkbox" id="feedback" name="feedback">
+
+        <button type="reset">Скинути</button>
+        <button type="submit">Надіслати</button>
+    </fieldset>
+</form>
+<footer>
+    Дякуємо за Вашу довіру нам!
+</footer>
+</body>
+</html>
